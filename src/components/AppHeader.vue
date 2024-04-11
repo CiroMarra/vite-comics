@@ -60,9 +60,9 @@
 
 <template>
     <header>
-        <div class="container-xxl">
-            <nav class="navbar bg-body-tertiary">
-                <div class="container-fluid">
+        <div class="container-fluid">
+            <nav class="navbar">
+                <div class="container">
                     <a class="navbar-brand" href="#">
                         <img src="../assets/img/dc-logo.png" alt="Logo" width="100" height="100" class="d-inline-block align-text-top">
                     </a>
