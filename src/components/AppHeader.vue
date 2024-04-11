@@ -60,7 +60,7 @@
 
 <template>
     <header>
-        <header>
+
         <div class="container-xxl">
             <nav class="navbar bg-body-tertiary">
                 <div class="container-fluid">
@@ -75,7 +75,7 @@
                 </div>
             </nav>
         </div>
-    </header>
+ 
     </header>
 
 </template>
