@@ -29,3 +29,27 @@ ul {
  
 }
 
+// AppMain
+
+.ms-background {
+    background-color: #1c1c1c;
+    height: 200px;
+    
+    .ms-text {
+        color: white;
+        font-size: 32px;
+    }
+}
+
+.ms-background-card {
+    background-color: #0282f9;
+} 
+
+.ms-img {
+        height: 90px;
+        width: 70px;
+}
+
+.font {
+    font-size: 14px;
+}
