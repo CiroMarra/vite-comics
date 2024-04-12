@@ -136,6 +136,19 @@
                 </div> 
             </div>
     </section>
+    <section class="ms-endfooter">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center py-3">
+            <div class="p-2 e"><button type="button" class="btn btn-outline-primary text-white">SIGN-UP NOW!</button></div>
+            <div class="p-2 ms-auto text-white">FOLLOW US</div>
+            <div class="p-2"><img src="../assets/img/footer-facebook.png" alt=""></div>
+            <div class="p-2"><img src="../assets/img/footer-twitter.png" alt=""></div>
+            <div class="p-2"><img src="../assets/img/footer-youtube.png" alt=""></div>
+            <div class="p-2"><img src="../assets/img/footer-pinterest.png" alt=""></div>
+            <div class="p-2"><img src="../assets/img/footer-periscope.png" alt=""></div>
+        </div>
+</div>
+</section>
 
 
  </footer>
@@ -143,8 +156,59 @@
 </template>
 
 <style scoped lang="scss">
+.ms-endfooter {
+    background-color:#303030;
+}
 
-@use '../style/partials/variables.scss' as *;
+.ms-footer {
+    background-image: url(./src/assets/img/footer-bg.jpg);
+    height: 371px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: hidden;
+
+    .img-logo-footer {
+
+        .img-position {
+        height: 532px;
+        width: 600px;
+        position: absolute;
+        bottom: 1px;
+        left: 300px;
+        bottom: -90px;
+    
+    }
+    
+    }
+
+    ul {
+        list-style: none;
+        font-weight: bolder;
+    
+    
+        li {
+    
+            color: grey;
+        }
+    
+        a {
+            padding: 3px 1px;
+            text-decoration: none;
+            font-size: 12px;
+            font-weight: lighter;
+            color: lightgrey;
+        }
+        
+        a:hover {
+            color: white;
+        }
+    
+     
+    }
+
+
+
+}
 
 
 

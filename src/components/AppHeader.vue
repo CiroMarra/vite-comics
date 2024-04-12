@@ -1,4 +1,5 @@
 <script>
+    
  export default {
     name: 'AppHeader',
      data() {
@@ -64,10 +65,10 @@
             <nav class="navbar">
                 <div class="container">
                     <a class="navbar-brand" href="#">
-                        <img src="../assets/img/dc-logo.png" alt="Logo" width="100" height="100" class="d-inline-block align-text-top">
+                        <img src="../assets/img/dc-logo.png" alt="Logo" class="d-inline-block align-text-top">
                     </a>
                     <ul class="d-flex">
-                        <li :class="{ 'active': link.active }" v-for="(link, index) in links" :key="index" @click="setActive(index)">
+                        <li  class="py-5":class="{ 'active': link.active }" v-for="(link, index) in links" :key="index" @click="setActive(index)">
                             <a href="#">{{ link.text }}</a>
                         </li>
                     </ul>
@@ -80,7 +81,46 @@
 
 <style scoped lang="scss">
 
-@use '../style/partials/variables' as *;
+
+
+nav {
+    margin: 0;
+    padding: 0;
+    ul {
+
+        margin: 0;
+    
+    
+        li {
+            padding: 8px;
+            list-style: none;
+           
+            
+    
+    
+            &.active{
+                border-bottom: 4px solid #0282f9;
+
+    
+                a {
+                    color: #0282f9;
+                }
+             
+             }
+        }
+    
+        a {
+    
+            text-decoration: none;
+            font-weight: bolder;
+            color: black;
+            font-size: 15px;
+        }
+    
+     
+    }
+}
+
 
 
 </style>

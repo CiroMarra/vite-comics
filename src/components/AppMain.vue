@@ -1,4 +1,5 @@
 <script>
+import AppProductsList from './AppProductsList.vue';
 export default {
     name: 'AppMain',
     data() {
@@ -37,13 +38,7 @@ export default {
 
 <template>
     <main>
-        <section>
-            <div class="container-fluid d-flex align-items-center justify-content-center ms-background"> 
-                <div class="container">
-                    <div class="ms-text">-->Contents goes Here <--</div>
-                </div>
-            </div>
-        </section>
+    <section class="card-shop">
         <div class="container-fluid d-flex align-items-center justify-content-center ms-background-card"> 
             <div class="container">
                 <div class="container text-center">
@@ -66,9 +61,34 @@ export default {
                 </div>
             </div>
         </div>
+    </section>
+        
     </main>
 </template>
 
 <style scoped lang="scss">
     @use '../style/partials/variables' as *;
+    .ms-background {
+    background-color: #1c1c1c;
+    height: 200px;
+    
+    .ms-text {
+        color: white;
+        font-size: 42px;
+    }
+}
+
+.ms-background-card {
+    background-color: #0282f9;
+} 
+
+.ms-img {
+        height: 90px;
+        width: 70px;
+}
+
+.font {
+    font-size: 14px;
+}
+
 </style>
